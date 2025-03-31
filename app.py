@@ -52,8 +52,8 @@ def caption_image():
     caption_ua = translate_to_uk(caption_en)
 
     return jsonify({
-        "caption_en": caption_en,
-        "caption_ua": caption_ua
+        "en": caption_en,
+        "ua": caption_ua
     })
 
 
